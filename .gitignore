@@ -1,5 +1,11 @@
 # Compiled class file
 *.class
+target/
+.idea/
+out/
+reports/
+logs/
+allure-report/
 
 # Log file
 *.log
