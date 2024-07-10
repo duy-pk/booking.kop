@@ -19,12 +19,16 @@ public class ConfigData {
 
     //Page 2
     public static String Name = "Pham Khuong Duy";
-    public static String Birthday = "21/11/1994";
+    public static String NamSinh = "1994";
+    public static String ThangSinh = "Tháng 10";
+    public static String NgaySinh = "19";
     public static String Address = "Gia Lam, Ha Noi";
     public static String Email = "khuongduypham0175@gmail.com";
     public static String Phone = "0976367965";
     public static String CCCD = "037094002492";
-    public static String CCCD_day = "22/08/2022";
+    public static String CCCD_Nam = "2022";
+    public static String CCCD_Thang = "Tháng 8";
+    public static String CCCD_Ngay = "22";
     public static String CCCD_address = "Cuc canh sat quan ly hanh chinh ve trat tu xa hoi";
     public static String Nationality = "Viet Nam";
 

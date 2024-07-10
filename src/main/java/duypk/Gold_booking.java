@@ -25,7 +25,13 @@ public class Gold_booking {
         ConfigData.waitElementVisible(driver, Locator.inputName,10);
         driver.findElement(Locator.inputName).sendKeys(ConfigData.Name);
         //Nhap ngay sinh
-        driver.findElement(Locator.inputBirthday).sendKeys(ConfigData.Birthday);
+        driver.findElement(Locator.inputBirthdayButton).click();
+        ConfigData.waitElementVisible(driver, Locator.inputNamSinh,10);
+        driver.findElement(Locator.inputNamSinh).click();
+        ConfigData.waitElementVisible(driver, Locator.inputThangSinh,10);
+        driver.findElement(Locator.inputThangSinh).click();
+        ConfigData.waitElementVisible(driver, Locator.inputNgaySinh,10);
+        driver.findElement(Locator.inputNgaySinh).click();
         //Nhap dia chi
         driver.findElement(Locator.inputAddress).sendKeys(ConfigData.Address);
         //Nhap Email
@@ -35,7 +41,13 @@ public class Gold_booking {
         //Nhap CCCD
         driver.findElement(Locator.inputCCCD).sendKeys(ConfigData.CCCD);
         //Nhap ngay cap CCCD
-        driver.findElement(Locator.inputCCCDday).sendKeys(ConfigData.CCCD_day);
+        driver.findElement(Locator.inputCCCDbutton).click();
+        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Nam,10);
+        driver.findElement(Locator.inputCCCD_Nam).click();
+        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Thang,10);
+        driver.findElement(Locator.inputCCCD_Thang).click();
+        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Ngay,10);
+        driver.findElement(Locator.inputCCCD_Ngay).click();
         //Nhap noi cap CCCD
         driver.findElement(Locator.inputCCCDaddress).sendKeys(ConfigData.CCCD_address);
     }
