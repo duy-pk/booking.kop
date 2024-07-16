@@ -41,22 +41,18 @@ public class Gold_booking {
         driver.findElement(Locator.inputBirthdayButton).click();
         ConfigData.waitElementVisible(driver, Locator.inputNamSinh,20);
         driver.findElement(Locator.inputNamSinh).click();
-//        ConfigData.waitElementVisible(driver, Locator.inputThangSinh,20);
-        ConfigData.sleep(1);
+        ConfigData.waitElementVisible(driver, Locator.inputThangSinh,20);
         driver.findElement(Locator.inputThangSinh).click();
-//        ConfigData.waitElementVisible(driver, Locator.inputNgaySinh,20);
-        ConfigData.sleep(1);
+        ConfigData.waitElementVisible(driver, Locator.inputNgaySinh,20);
         driver.findElement(Locator.inputNgaySinh).click();
 
         //Nhap ngay cap CCCD
         driver.findElement(Locator.inputCCCDbutton).click();
         ConfigData.waitElementVisible(driver, Locator.inputCCCD_Nam,20);
         driver.findElement(Locator.inputCCCD_Nam).click();
-//        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Thang,20);
-        ConfigData.sleep(1);
+        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Thang,20);
         driver.findElement(Locator.inputCCCD_Thang).click();
-//        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Ngay,20);
-        ConfigData.sleep(1);
+        ConfigData.waitElementVisible(driver, Locator.inputCCCD_Ngay,20);
         driver.findElement(Locator.inputCCCD_Ngay).click();
     }
 }

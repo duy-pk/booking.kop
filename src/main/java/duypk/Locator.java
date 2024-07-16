@@ -23,7 +23,7 @@ public class Locator {
     public static By inputCCCDbutton = By.xpath("//input[@id='input-119']");
     public static By inputCCCD_Nam = By.xpath("//li[normalize-space()='" + ConfigData.CCCD_Nam + "']");
     public static By inputCCCD_Thang = By.xpath("//div[normalize-space()='" + ConfigData.CCCD_Thang + "']");
-    public static By inputCCCD_Ngay = By.xpath("//div[normalize-space()='" + ConfigData.CCCD_Ngay + "']");
+    public static By inputCCCD_Ngay = By.xpath("//div[@class='v-menu__content theme--light menuable__content__active']//div[normalize-space()='" + ConfigData.CCCD_Ngay + "']");
     public static By inputCCCDaddress = By.xpath("//input[@id='input-123']");
     public static By inputNationality = By.xpath("//input[@id='input-126']");
 }
